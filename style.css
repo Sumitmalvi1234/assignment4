@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(6, 6, 6);
+    display: grid;
+    gap: 50px;
+    border: white;
+    border-radius: 50px;
+    grid-template-columns: 22% 20% 9% 27% 22%;
+    grid-template-rows: 29% 26% 8% 17% 20%;
+    grid-template-areas: "left-top top-center top-center top-center2 right-top"
+                         "left-top center center center right-top"
+                         "left-bottom center center center right-top"
+                         "left-bottom center center center right-bottom"
+                         "left-bottom bottom-center1 bottom-center2 bottom-center2 right-bottom";
+    
+     position: relative;
+}
+.left-top{
+    background-color: rgb(234, 208, 230);
+    grid-area: left-top;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0%;
+   
+
+}
+.left-bottom{
+    background-color: rgb(2, 3, 4);
+    grid-area: left-bottom;
+    border: 2px solid rgb(187, 179, 179);
+    border-radius: 10px;
+
+}
+.top-center{
+    background-color: rgb(251, 251, 251);
+ grid-area: top-center;
+
+}
+.top-center2{
+    background-color: rgb(247, 247, 247);
+    grid-area: top-center2;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.center{
+    background-color: rgb(207, 189, 202);
+    grid-area: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+     position: relative;
+     ;
+}
+.bottom-center1{
+    background-color: rgb(208, 214, 220);
+    grid-area: bottom-center1;
+    border: 2px solid white;
+    border-radius: 10px;
+   
+}
+.bottom-center2{
+    background-color: rgb(201, 203, 205);
+    grid-area: bottom-center2;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 40px;
+ 
+}
+.right-top{
+    background-color: rgb(255, 255, 255);
+    grid-area: right-top;
+    border: 2px solid white;
+    position: relative;
+ 
+    
+}
+.right-bottom{
+    background-color: rgb(232, 210, 218);
+    grid-area: right-bottom;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+.circle{
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(rgb(255, 213, 220), pink);
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+ 
+ 
+    
+}
+.center img{
+    position: absolute;
+    bottom: 0;
+    height: 1900px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+   
+}
+.bottom-center2{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: s;
+    
+}
+.btn1{
+    height: 100px;
+    width: 450px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 50px;
+    border: 2px white;
+    border-radius: 50px;
+}
+.rt1 img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: black;
+    margin-left: -50%px;
+    border: 22px rgb(0, 0, 0);
+    padding: auto;
+    
+}
+
+.right-top div {
+    margin-top: 10%;
+    font-size: 50px;
+    margin-left: 50px;
+    justify-content: space-around;
+}
+.ri-user-add-line{
+   
+    font-size: 350px;
+    background-color: rgb(216, 159, 202);
+    border: 15px rgb(6, 6, 6);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+.img12{
+    height: 100%;
+    width: 100%;
+    
+    justify-content: space-around;
+}
+.img13{
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+.img14{
+    height: 100%;
+    width: 100%;
+}
+#img15{
+    height: 100%;
+    width: 100%;
+}
+.img16,.img17{
+    height: 100%;
+    width: 100%;
+}
+
+
+.c8{
+    position: absolute;
+    padding: 0;
+    width: 100px;
+    height: 10%;
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.c2{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;}
+
+.c3{
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    width: 250px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;}
+
+.c4{
+   position: absolute;
+    bottom: 80px;
+    right: 30px;
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.center img.main-img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 900px; /* Change this value */
+    width: auto;
+}
